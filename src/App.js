@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Gallery from './Components/Gallery';
 import {Relogio} from './Components/Relogio';
 
 function App() {
   return (
     <div className="App">
       <Relogio />
+      <Gallery />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
